@@ -1,0 +1,24 @@
+
+---------------------------
+BIT MANIPULATION TECHNIQUES
+---------------------------
+
+# XOR operator (^) --> When two bits are opposite then output is 1 unless output is 0.
+
+# Tilt Operator (~) --> It inverses all the bits. Or in other words it actually gives the compliment of a number's binary.
+
+# Right Shift Operator (>>) --> 
+    For example : 12 >> 2 
+    binary of 12 is : 1100
+    12 >> 2 = 0011
+
+# Left shift Operator (<<) -->
+    For example : 12 << 2
+    binary of 12 is : 1100
+    12 << 2 = 110000
+
+# Right Shifting Divides the number by 2
+    Example : 12 >> 1 = 6
+
+# Left Shifting Multiplies the number by 2
+    Example : 12 << 1 = 24
