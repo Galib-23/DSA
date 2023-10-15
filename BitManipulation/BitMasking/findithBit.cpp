@@ -8,7 +8,6 @@ mask--> 0 0 0 1 0 0 0 0 0 (This is made by 1 << i where i = 5 for this case)
 (&)oper:0 0 0 1 0 0 0 0 0
 
 */
-//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
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -31,5 +30,8 @@ int main () {
     }
     else{
         cout<<"The bit is 0"<<endl;
+ 
+//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
+
     }
 }
