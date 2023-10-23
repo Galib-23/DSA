@@ -22,5 +22,3 @@ BIT MANIPULATION TECHNIQUES
 
 # Left Shifting Multiplies the number by 2
     Example : 12 << 1 = 24
-
-#Bit Masking

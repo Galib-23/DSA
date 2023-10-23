@@ -30,8 +30,5 @@ int main () {
     }
     else{
         cout<<"The bit is 0"<<endl;
- 
-//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
-
     }
 }
