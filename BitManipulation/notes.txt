@@ -22,3 +22,11 @@ BIT MANIPULATION TECHNIQUES
 
 # Left Shifting Multiplies the number by 2
     Example : 12 << 1 = 24
+    
+# No of bits in a binary number n is ==> (log(2base)n) + 1  ****
+
+# n & ( n - 1 )  ==> This unsets the least significant bit:
+        for example: if we do the n&(n-1) repeatedly until the number becomes 0 
+            1011001 -> 1011000 -> 1010000 -> 1000000 -> 0000000
+
+# n ^ n = 0 ;;;;;  0 ^ n = n;
