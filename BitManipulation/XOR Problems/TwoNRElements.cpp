@@ -1,4 +1,6 @@
 /*
+Q. Find the two non repeating elements in an array: 
+
     a = [5, 4, 1, 4, 3, 5, 1, 2]
     res = 5 ^ 4 ^ 1 ^ 4 ^ 3 ^ 5 ^ 1 ^ 2
     As only 3 and 2 are non Repeating . So the result will be
