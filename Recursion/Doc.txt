@@ -1,0 +1,4 @@
+# Steps for recursion
+    1. Find the base case
+    2. Find the relation between the problem and subProblems
+    3. Generalize the relation
