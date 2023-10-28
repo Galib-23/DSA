@@ -19,6 +19,7 @@ BIT MANIPULATION TECHNIQUES
 
 # Right Shifting Divides the number by 2
     Example : 12 >> 1 = 6
+    10 >> 3 === 1010 >> 3 = 1 (010 are shifted to right) = 0001 (3 0's are added before 1)
 
 # Left Shifting Multiplies the number by 2
     Example : 12 << 1 = 24
