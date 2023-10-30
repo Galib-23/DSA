@@ -12,7 +12,7 @@ int main(){
             a[j + 1] = a[j];
             j--;
         }
-        a[j+1] = temp;
+        a[j+1] = temp; // because j-- was done j was one step previous of a[j]
     }
     for (int i = 0; i < n; i++)
     {
