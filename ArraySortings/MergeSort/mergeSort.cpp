@@ -14,10 +14,14 @@ void merge(int a[], int l, int mid, int r){
             b[k] = a[j];
             j++;
         } k++;
-        if(i > mid){
+    }
+    if(i > mid){
+        while(j <= r){
             b[k] = a[j];
             j++; k++;
-        }else if(j > r){
+        }
+    }else{
+        while(i <= mid){
             b[k] = a[i];
             i++; k++;
         }
