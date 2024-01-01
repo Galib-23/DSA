@@ -5,10 +5,13 @@ int main(){
 /*
     1. maps always store in ascending order...
     2. If the keys are strings then those are stored lexicographically
+
+    # Unordered Map all same as normal map just it doesnt store keys in a sorted manner
+      and the time complexity for all cases is either O(1) / log(1)
 */
 
     map<int, string> m;
-    m[1] = "abc";
+    m[1] = "abc"; // insertion time log(n) if key is string insert time = s.size()*log(n)
     m[5] = "cde";
     m[3] = "efg";
 
