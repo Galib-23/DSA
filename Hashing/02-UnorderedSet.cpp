@@ -12,5 +12,4 @@ int main(){
     if(s.count(5) == 0){
         cout<<"Not present"<<endl;
     }
-    
 }
