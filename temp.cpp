@@ -1,9 +1,11 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    for (int i = 0; i < 1000; i++)
+    vector<int> v = {1, 3, 2, 5, 6};
+    sort(v.begin(), v.end());
+    for (int i = 0; i < v.size(); i++)
     {
-        cout<<"Miu";
+        cout<<v[i]<<endl;
     }
     
 }
