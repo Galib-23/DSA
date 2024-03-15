@@ -1,33 +1,15 @@
-#include <iostream>
-#include <unordered_map>
-#include <vector>
+#include <bits/stdc++.h>
 using namespace std;
+#define int long long
 
-int main() {
+signed main()
+{
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
     int t;
     cin >> t;
-
-    while (t--) {
-        int n, k;
-        cin >> n >> k;
-        unordered_map<int, vector<int>> m;
-
-        for (int i = 1; i <= n; i++) {
-            int x;
-            cin >> x;
-            int rem = x % k;
-            if (rem < 0) rem += k; // Ensure positive remainder
-
-            m[rem].push_back(i);
-        }
-
-        for (int i = 0; i < k; i++) {
-            for (int j : m[i]) {
-                cout << j << " ";
-            }
-        }
-        cout << endl;
+    while (t--)
+    {
+        
     }
-
-    return 0;
 }
