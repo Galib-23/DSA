@@ -6,3 +6,5 @@ tempo.cpp
 tempo.exe
 *.exe
 tempCodeRunnerFile.cpp
+.cph
+.vscode
