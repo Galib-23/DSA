@@ -23,6 +23,7 @@ int main(){
     s.insert(3);
     s.insert(5);
     cout<<"Number of 5 persent: "<<s.count(5)<<endl; //basically in u_s count always  = 1
+    cout<<*(s.begin())<<endl;
     //so we can check if any number is present here or not
     s.erase(5);
     if(s.count(5) == 0){
