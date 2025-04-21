@@ -2,7 +2,7 @@
 using namespace std;
 #define int long long
 
-signed main()
+int main()
 {
   int n;
   cout << "Enter the no. of processes: ";
@@ -33,22 +33,22 @@ signed main()
   int ca = zt - tc;
 
   vector<vector<int>> vNeed;
-  vNeed[0] = {-1, -1, -1};
+  vNeed.push_back({-1, -1, -1});
   for (int i = 1; i <= n; i++)
   {
     int o, p, q;
     o = mp[i].second[0] - mp[i].first[0];
     p = mp[i].second[1] - mp[i].first[1];
     q = mp[i].second[2] - mp[i].first[2];
-    vNeed[1] = {o, p, q};
+    vNeed.push_back({o, p, q});
   }
   
   cout<<"Need Matrix: "<<endl;
   for (int i = 1; i <= n ; i++)
   {
-    cout<<i<<": "<<vNeed[i][0]<<" "<<vNeed[i][1]<<" "<<vNeed[i][2];
+    cout<<i<<": "<<vNeed[i][0]<<" "<<vNeed[i][1]<<" "<<vNeed[i][2]<<endl;
   }
-  
+  cout<<endl;
   int res = 1;
 
   while (!sc.empty())
