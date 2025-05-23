@@ -39,7 +39,7 @@ int main() {
     if(blkv[i] < proc) {
       i++;
     } else {
-      totalExtFrag = totalExtFrag + (blkv[i] - proc);
+      //totalExtFrag = totalExtFrag + (blkv[i] - proc);
       blkv[i] = blkv[i] - proc;
       tmpv.pop_back();
     }
@@ -76,7 +76,7 @@ int main() {
     blkLeft += val;
   }
   if(procLeft > 0) {
-    totalExtFrag = blkLeft;
+    totalExtFrag = procLeft;
   }
   cout<<"For Best Fit External Fragmentation: "<<totalExtFrag<<endl; 
 }
