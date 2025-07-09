@@ -16,18 +16,26 @@ int main(){
     m[3] = "efg";
 
     m.insert({6, "ijk"});
+
     for (auto it = m.begin(); it != m.end(); it++)
     {
         cout<<(*it).first<<" "<<(*it).second<<endl;
     }
+
     cout<<"Size: "<<m.size()<<endl;
     
+
     //find operation
     auto it = m.find(3);
     if(it == m.end()){
         cout<<"No value"<<endl;
     }else{
         cout<<(*it).first<<" "<<(*it).second<<endl;
+    }
+    
+    //shortly the above can be done in this way:
+    if(m.find(3) == m.end()){
+        cout<<"No value"<<endl;
     }
 
     //erase operation
