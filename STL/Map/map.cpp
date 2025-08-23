@@ -40,6 +40,6 @@ int main(){
 
     //erase operation
     m.erase(3);
-    //clearing the whole map
+    //clearing the whole mapw
     m.clear();
 }

@@ -16,7 +16,7 @@ void insert(int a[], int n, int value){
 }
 
 int main(){
-    int a[] = {50, 30, 40, 10, 5, 20, 30, 60};
+    int a[] = {50, 30, 20, 15, 10, 8, 16};
     int value = 45;
     int n = sizeof(a) / sizeof(a[0]);
     insert(a, n, value);
