@@ -19,7 +19,7 @@ void heapify(vector<int> &v, int n, int i)
 }
 
 void heapSort(vector<int> &v) {
-  int n = v.size();
+  int n = v.size(); 
   for(int i = (n/2) - 1; i >= 0; i--) {
     heapify(v, n, i);
   }
