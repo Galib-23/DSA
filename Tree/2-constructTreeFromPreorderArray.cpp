@@ -38,6 +38,8 @@ void printTree(Node* root) {
   return;
 }
 
+
+
 int main() {
   vector<int> preorder = {2, 4, 8, -1, -1, 10, -1, -1, 6, 7, -1, -1};
   int i = 0;
